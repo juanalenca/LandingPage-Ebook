@@ -34,7 +34,7 @@
 <body class="font-lora bg-gray-900 text-gray-100">
 
     <!-- Seção Principal -->
-    <header class="bg-gradient-to-r from-blue-700 to-black text-white py-20">
+    <header class="bg-gradient-to-r from-blue-700 to-black text-white py-20 relative overflow-hidden">
         <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
             <div class="text-center md:text-left">
                 <h1 class="text-5xl font-bold mb-4 font-playfair">Meu Despertar é Agora</h1>
@@ -48,8 +48,14 @@
                 <img src="image/capa-principal.png" alt="Capa do Ebook: Meu Despertar é Agora" class="rounded-lg w-[400px] md:w-[550px]">
             </div>
         </div>
-    </header>
 
+        <!-- Contêiner das ondas -->
+        <div class="waves-container">
+            <div class="wave" style="background-image: url('./image/waves.png'); opacity: .1; mix-blend-mode: multiply;"></div>
+            <div class="wave" style="background-image: url('./image/waves.png'); opacity: .75; mix-blend-mode: multiply;"></div>
+            <div class="wave" style="background-image: url('./image/waves.png'); opacity: .5; mix-blend-mode: multiply;"></div>
+        </div>
+    </header>
 
     <!-- Sobre o Livro -->
     <section class="bg-gray-900 text-yellow-300">
@@ -65,6 +71,8 @@
             </blockquote>
         </div>
     </section>
+
+
 
 
     <!--Capítulos do livro-->
