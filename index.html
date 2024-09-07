@@ -31,26 +31,26 @@
     <link rel="stylesheet" href="style.css">
    
 </head>
-<!--<body class="font-lora bg-gray-900 text-gray-100">-->
 <body class="font-lora text-gray-100" style="background: linear-gradient(to bottom, #011C40, #011126, #032859, #143C8C, #14488C);">
     
-        <!-- Seção Principal -->
-        <header class="text-white py-20 relative overflow-hidden" data-aos="fade-up">
-            <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
-                <div class="text-center md:text-left" data-aos="fade-right">
-                    <h1 class="text-5xl font-bold mb-4 font-playfair">Meu Despertar é Agora</h1>
-                    <p class="text-xl mb-8">Uma jornada de autoconhecimento e desenvolvimento pessoal</p>
-                    <a href="https://pay.hotmart.com/F90307832G?sck=HOTMART_PRODUCT_PAGE&off=iufu02j6&hotfeature=32,34&bid=1724979682576" 
-                    class="bg-yellow-500 hover:bg-blue-700 text-black font-bold py-3 px-6 rounded-lg transition duration-300">
-                        Baixe Agora
-                    </a>
-                </div>
-                <div class="mt-8 md:mt-0" data-aos="fade-left">
-                    <img src="images/capa-principal.png" alt="Capa do Ebook: Meu Despertar é Agora" class="rounded-lg w-[400px] md:w-[550px]">
-                </div>
+    <!-- Seção Principal -->
+    <header class="text-white py-20 relative overflow-hidden" data-aos="fade-up">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="text-center md:text-left" data-aos="fade-right">
+                <h1 class="text-5xl font-bold mb-4 font-playfair">Meu Despertar é Agora</h1>
+                <p class="text-xl mb-8">Uma jornada de autoconhecimento e desenvolvimento pessoal</p>
+                <a href="https://pay.hotmart.com/F90307832G?sck=HOTMART_PRODUCT_PAGE&off=iufu02j6&hotfeature=32,34&bid=1724979682576" 
+                class="bg-yellow-500 hover:bg-blue-700 text-black font-bold py-3 px-6 rounded-lg transition duration-300">
+                    Baixe Agora
+                </a>
             </div>
-        </header>
+            <div class="mt-8 md:mt-0" data-aos="fade-left">
+                <img src="images/capa-principal.png" alt="Capa do Ebook: Meu Despertar é Agora" class="rounded-lg w-[400px] md:w-[550px]">
+            </div>
+        </div>
+    </header>
 
+    
     <!-- Sobre o Livro bg-gray-900 -->
     <section class="text-yellow-300 py-8" data-aos="fade-up">
         <div class="container mx-auto px-6">
@@ -65,8 +65,6 @@
             </blockquote>
         </div>
     </section>
-
-
 
 
     <!--Capítulos do livro-->
@@ -154,13 +152,13 @@
     </section>
 
 
-
-    <!-- Biografia do Autor com Carrossel de Instagram bg-gray-900-->
+    <!-- Biografia do Autor com Carrossel de Instagram -->
     <section class="py-20">
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center" data-aos="fade-right">
-                <img src="https://via.placeholder.com/150x150.png?text=Autor" alt="Foto do Autor, Ciro Domingos de Souza, especialista em autoconhecimento" class="rounded-full mb-8 md:mb-0 md:mr-8 shadow-lg">
-                <div>
+                <!-- Aumentar o tamanho da imagem do autor -->
+                <img src="https://via.placeholder.com/300x300.png?text=Autor" alt="Foto do Autor, Ciro Domingos de Souza, especialista em autoconhecimento" class="rounded-full mb-8 md:mb-0 md:mr-8 shadow-lg" data-aos="zoom-in"> 
+                <div data-aos="fade-left">
                     <h2 class="text-3xl font-semibold mb-4 font-playfair text-yellow-300">Sobre o Autor</h2>
                     <p class="text-lg text-gray-400">
                         Ciro Domingos de Souza é um renomado profissional na área de Psicologia Clínica, com especialização em Terapia Cognitivo Comportamental e Práticas Integrativas. Sua paixão pelo conhecimento e sua busca incessante por novas experiências o tornaram uma referência no campo.
@@ -168,9 +166,9 @@
                 </div>
             </div>
             <!-- Carrossel de Publicações do Instagram -->
-            <div class="mt-12">
+            <div class="mt-12" data-aos="fade-up">
                 <h3 class="text-xl font-semibold mb-4 font-playfair text-yellow-300">Publicações Mais Recentes no Instagram</h3>
-                <div class="instagram-carousel">
+                <div class="instagram-carousel" data-aos="zoom-in">
                     <div>
                         <img src="https://via.placeholder.com/600x600.png?text=Post1" alt="Postagem 1" class="rounded-lg shadow-md mx-auto max-w-xs">
                     </div>
@@ -195,88 +193,146 @@
     </section>
 
 
-
-
-    <!--Motivos Para Adquirir o Livro-->
+    <!-- Motivos Para Adquirir o Livro -->
     <section class="py-16">
         <div class="container mx-auto px-6">
-          <h2 class="text-3xl font-semibold text-center text-yellow-300 mb-20 font-playfair">
-            "Mas o que esse livro irá agregar ?"
-          </h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-      
-            <!-- Motivo 1 -->
-            <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
-              <div class="flex flex-col items-center justify-center">
-                <!-- Imagem -->
-                <div class="w-16 h-16 mb-4">
-                  <img src="https://via.placeholder.com/50x50.png?text=Exploração" alt="Exploração do Eu" class="rounded-full">
+            <h2 class="text-3xl font-semibold text-center text-yellow-300 mb-20 font-playfair">
+                "Mas o que esse livro irá agregar?"
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Motivo 1 -->
+                <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
+                    <div class="flex flex-col items-center justify-center">
+                        <!-- Imagem -->
+                        <div class="w-16 h-16 mb-4">
+                            <img src="https://via.placeholder.com/50x50.png?text=Exploração" alt="Exploração do Eu" class="rounded-full">
+                        </div>
+                        <!-- Título -->
+                        <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Exploração do Si Mesmo</h4>
+                    </div>
+                    <!-- Descrição Oculta (Inicialmente) -->
+                    <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
+                        Este livro conduz você a uma jornada de autodescoberta, incentivando a explorar aspectos inexplorados de si mesmo, por meio de reflexões e atividades práticas.
+                    </p>
                 </div>
-                <!-- Título -->
-                <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Exploração do Si Mesmo</h4>
-              </div>
-              <!-- Descrição Oculta (Inicialmente) -->
-              <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
-                Este livro conduz você a uma jornada de autodescoberta, incentivando a explorar aspectos inexplorados de si mesmo, por meio de reflexões e atividades práticas.
-              </p>
-            </div>
-      
-            <!-- Motivo 2 -->
-            <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
-              <div class="flex flex-col items-center justify-center">
-                <!-- Imagem -->
-                <div class="w-16 h-16 mb-4">
-                  <img src="https://via.placeholder.com/50x50.png?text=Protagonista" alt="Protagonista do Processo" class="rounded-full">
+                
+                <!-- Motivo 2 -->
+                <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
+                    <div class="flex flex-col items-center justify-center">
+                        <!-- Imagem -->
+                        <div class="w-16 h-16 mb-4">
+                            <img src="https://via.placeholder.com/50x50.png?text=Protagonista" alt="Protagonista do Processo" class="rounded-full">
+                        </div>
+                        <!-- Título -->
+                        <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Você é o Protagonista</h4>
+                    </div>
+                    <!-- Descrição Oculta (Inicialmente) -->
+                    <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
+                        O autor te convida a ser o protagonista da sua jornada de autoconhecimento, permitindo que você tome o controle do seu processo de mudança e crescimento.
+                    </p>
                 </div>
-                <!-- Título -->
-                <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Você é o Protagonista</h4>
-              </div>
-              <!-- Descrição Oculta (Inicialmente) -->
-              <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
-                O autor te convida a ser o protagonista da sua jornada de autoconhecimento, permitindo que você tome o controle do seu processo de mudança e crescimento.
-              </p>
-            </div>
-      
-            <!-- Motivo 3 -->
-            <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
-              <div class="flex flex-col items-center justify-center">
-                <!-- Imagem -->
-                <div class="w-16 h-16 mb-4">
-                  <img src="https://via.placeholder.com/50x50.png?text=Resiliência" alt="Desenvolver Resiliência" class="rounded-full">
+                
+                <!-- Motivo 3 -->
+                <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
+                    <div class="flex flex-col items-center justify-center">
+                        <!-- Imagem -->
+                        <div class="w-16 h-16 mb-4">
+                            <img src="https://via.placeholder.com/50x50.png?text=Resiliência" alt="Desenvolver Resiliência" class="rounded-full">
+                        </div>
+                        <!-- Título -->
+                        <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Desenvolva Resiliência</h4>
+                    </div>
+                    <!-- Descrição Oculta (Inicialmente) -->
+                    <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
+                        Aprenda a ressignificar sua vida, ganhar resistência emocional e superar desafios com uma nova perspectiva, fortalecendo sua resiliência.
+                    </p>
                 </div>
-                <!-- Título -->
-                <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Desenvolva Resiliência</h4>
-              </div>
-              <!-- Descrição Oculta (Inicialmente) -->
-              <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
-                Aprenda a ressignificar sua vida, ganhar resistência emocional e superar desafios com uma nova perspectiva, fortalecendo sua resiliência.
-              </p>
-            </div>
-      
-            <!-- Motivo 4 -->
-            <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
-              <div class="flex flex-col items-center justify-center">
-                <!-- Imagem -->
-                <div class="w-16 h-16 mb-4">
-                  <img src="https://via.placeholder.com/50x50.png?text=Autoestima" alt="Autoestima Elevada" class="rounded-full">
+                
+                <!-- Motivo 4 -->
+                <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
+                    <div class="flex flex-col items-center justify-center">
+                        <!-- Imagem -->
+                        <div class="w-16 h-16 mb-4">
+                            <img src="https://via.placeholder.com/50x50.png?text=Autoestima" alt="Autoestima Elevada" class="rounded-full">
+                        </div>
+                        <!-- Título -->
+                        <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Aumente sua Autoestima</h4>
+                    </div>
+                    <!-- Descrição Oculta (Inicialmente) -->
+                    <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
+                        Você terá uma nova visão de si mesmo, com uma autoestima elevada e uma compreensão mais profunda de suas capacidades e limites.
+                    </p>
                 </div>
-                <!-- Título -->
-                <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Aumente sua Autoestima</h4>
-              </div>
-              <!-- Descrição Oculta (Inicialmente) -->
-              <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
-                Ao final da leitura, você terá uma nova visão de si mesmo, com uma autoestima elevada e uma compreensão mais profunda de suas capacidades e limites.
-              </p>
+                
+                <!-- Motivo 5 -->
+                <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
+                    <div class="flex flex-col items-center justify-center">
+                        <!-- Imagem -->
+                        <div class="w-16 h-16 mb-4">
+                            <img src="https://via.placeholder.com/50x50.png?text=Equilíbrio" alt="Equilíbrio Emocional" class="rounded-full">
+                        </div>
+                        <!-- Título -->
+                        <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Equilíbrio Emocional</h4>
+                    </div>
+                    <!-- Descrição Oculta (Inicialmente) -->
+                    <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
+                        O livro oferece insights práticos para alcançar equilíbrio emocional, ajudando você a lidar com os altos e baixos da vida de forma mais estável e tranquila.
+                    </p>
+                </div>
+                
+                <!-- Motivo 6 -->
+                <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
+                    <div class="flex flex-col items-center justify-center">
+                        <!-- Imagem -->
+                        <div class="w-16 h-16 mb-4">
+                            <img src="https://via.placeholder.com/50x50.png?text=Crescimento" alt="Crescimento Pessoal" class="rounded-full">
+                        </div>
+                        <!-- Título -->
+                        <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Crescimento Pessoal</h4>
+                    </div>
+                    <!-- Descrição Oculta (Inicialmente) -->
+                    <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
+                        Descubra como sair da sua zona de conforto e dar passos concretos em direção ao crescimento pessoal, com técnicas práticas para aplicar no dia a dia.
+                    </p>
+                </div>
+                
+                <!-- Motivo 7 -->
+                <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
+                    <div class="flex flex-col items-center justify-center h-full"> <!-- Adicionada a altura total -->
+                        <!-- Imagem -->
+                        <div class="w-16 h-16 mb-4">
+                            <img src="https://via.placeholder.com/50x50.png?text=Mindfulness" alt="Mindfulness" class="rounded-full">
+                        </div>
+                        <!-- Título -->
+                        <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Estado de Atenção Plena</h4>
+                        <!-- Descrição Oculta (Inicialmente) -->
+                        <p class="text-gray-400 mt-4 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 transition-all duration-500 ease-in-out overflow-hidden">
+                            O livro ensina como desenvolver práticas de mindfulness para viver o presente e melhorar sua capacidade de foco e resiliência mental.
+                        </p>
+                    </div>
+                </div>
+
+                
+                <!-- Motivo 8 -->
+                <div class="group relative bg-gray-800 rounded-md shadow-lg overflow-hidden text-center p-6 transform hover:scale-105 transition duration-500 ease-in-out">
+                    <div class="flex flex-col items-center justify-center">
+                        <!-- Imagem -->
+                        <div class="w-16 h-16 mb-4">
+                            <img src="https://via.placeholder.com/50x50.png?text=Transformação" alt="Transformação" class="rounded-full">
+                        </div>
+                        <!-- Título -->
+                        <h4 class="text-xl font-semibold text-yellow-300 font-playfair">Transformação Pessoal</h4>
+                    </div>
+                    <!-- Descrição Oculta (Inicialmente) -->
+                    <p class="text-gray-400 max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 group-hover:mt-4 transition-all duration-500 ease-in-out overflow-hidden">
+                        Ao final do livro, você será capaz de promover mudanças significativas em sua vida, transformando padrões negativos em ações positivas e construtivas.
+                    </p>
+                </div>
+
             </div>
-      
-          </div>
         </div>
     </section>
-      
-      
-    
-
-
 
 
     <!-- Seção de CTA bg-blue-700-->
@@ -296,9 +352,6 @@
             </a>
         </div>
     </section>
-     
-
-
 
 
     <!-- Rodapé bg-gray-900-->
@@ -313,8 +366,6 @@
     </footer>
 
 
-
-
     <!-- Scripts JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
@@ -324,7 +375,7 @@
             // Inicializar AOS
             AOS.init({
                 duration: 1000, // Duração da animação
-                once: true // A animação só ocorre uma vez, quando o elemento entra na tela
+                once: false // A animação só ocorre uma vez, quando o elemento entra na tela
             });
    
             // Inicializar carrossel de Instagram
