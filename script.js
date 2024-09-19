@@ -1,9 +1,13 @@
 $(document).ready(function() {
-    // Inicializar AOS
-    AOS.init({
-        duration: 1000, // Duração da animação
-        once: false // A animação só ocorre uma vez, quando o elemento entra na tela
-    });
+    // Inicializar AOS após um pequeno atraso para estabilizar o layout
+    setTimeout(function() {
+        AOS.init({
+            duration: 800,           // Duração da animação
+            once: false,            // A animação ocorre uma única vez
+            offset: 0,             // Reduzir o deslocamento para 0
+            easing: 'ease-in-out' // Suavizar a animação
+        });
+    }, 300); // Aguarda 300ms antes de inicializar o AOS
 
     // Inicializar carrossel de Satisfação dos Clientes
     $('.customer-feedback').slick({
