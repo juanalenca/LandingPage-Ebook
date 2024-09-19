@@ -10,50 +10,23 @@
     }
 }
 
-.animate-float {
-    animation: float 3s ease-in-out infinite;
+
+/* Ajuste para o espaçamento no mobile */
+@media (max-width: 768px) {
+    header {
+        padding-top: 10px; /* Diminui o espaçamento no topo */
+        padding-bottom: 20px; /* Um pouco mais de espaço embaixo */
+    }
+
+    h1 {
+        font-size: 3rem; /* Reduzir o tamanho do título no mobile */
+    }
+
+    p {
+        font-size: 1rem; /* Ajustar o tamanho da fonte do parágrafo no mobile */
+    }
 }
 
-/* Estilização das setas do carrossel */
-.slick-prev:before,
-.slick-next:before {
-    font-family: 'slick';
-    font-size: 32px; /* Mantém o tamanho das setas */
-    font-weight: bold;
-    opacity: 1;
-    color: #FFD700; /* Cor amarela para combinar com o design */
-    letter-spacing: -2px;
-    transition: all 0.4s ease; /* Suaviza as transições */
-    transform: scale(0.9); /* Leve redução inicial para criar efeito de destaque no hover */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Adiciona uma sombra para destaque */
-}
-
-/* Posicionamento das setas */
-.slick-prev {
-    left: -40px;
-}
-
-.slick-next {
-    right: -40px;
-}
-
-/* Definindo os ícones das setas */
-.slick-prev:before {
-    content: '\003C'; /* Código unicode para '<' */
-}
-
-.slick-next:before {
-    content: '\003E'; /* Código unicode para '>' */
-}
-
-/* Efeito de hover dinâmico nas setas */
-.slick-prev:hover:before,
-.slick-next:hover:before {
-    color: #FFFFFF; /* Muda a cor para branco ao passar o mouse */
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Aumenta a sombra para mais destaque */
-    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
-    animation: pulse-rotate 0.6s ease-in-out; /* Animação suave ao passar o mouse */
-}
 
 /* Definição da animação de pulso e rotação */
 @keyframes pulse-rotate {
